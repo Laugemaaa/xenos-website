@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0a17" />
+  <meta name="description" content="Xenos er en dansk Minecraft Jumper Prison-server. Udforsk fællesskabet, forum, butik og ansøgninger." />
+  <meta property="og:title" content="Xenos Prison — Dansk Minecraft fællesskab" />
+  <meta property="og:description" content="En ny verden venter. Forum, butik og fællesskab på Xenos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://xenosprison.dk/assets/share-preview.png" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/config.js"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="shell topbar-inner">
+      <span class="topbar-left"><span class="topbar-dot"></span> XENOS <span class="topbar-slash">/</span> DANSK JUMPER PRISON</span>
+      <span class="topbar-right">BYGGET TIL FÆLLESSKABET <span class="topbar-star">✦</span> VERSION 1.8.9</span>
+    </div>
+  </div>
+  <header class="site-header" id="site-header">
+    <div class="shell header-inner">
+      <a href="#/" class="brand" aria-label="Xenos – forside">
+        <span class="brand-mark">X<span class="brand-mark-glow"></span></span>
+        <span class="brand-lockup"><span class="brand-name">XENOS<span class="brand-dot">.</span></span><span class="brand-sub">PRISON NETWORK</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Hovednavigation" id="primary-nav">
+        <a href="#/" data-nav="home">Forside</a>
+        <a href="#/forum" data-nav="forum">Forum</a>
+        <a href="#/butik" data-nav="butik">Butik</a>
+        <a href="#/ansoegninger" data-nav="ansoegninger">Ansøgninger</a>
+        <a href="#/regler" data-nav="regler">Regler</a>
+      </nav>
+      <div class="header-actions">
+        <button class="social-btn" type="button" data-action="discord" aria-label="Åbn Discord" title="Discord"><span class="social-icon">◉</span></button>
+        <button class="btn btn-head" type="button" data-action="account"><span id="account-label">Log ind</span><span class="btn-arrow">↗</span></button>
+        <button class="mobile-toggle" data-action="mobile-menu" aria-label="Åbn menu" aria-expanded="false" type="button"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer">
+    <div class="shell footer-top">
+      <div class="footer-lead">
+        <span class="brand footer-brand"><span class="brand-mark">X</span><span class="brand-lockup"><span class="brand-name">XENOS<span class="brand-dot">.</span></span><span class="brand-sub">PRISON NETWORK</span></span></span>
+        <p>Skabt til dem, der spiller for fællesskabet.<br />Et dansk Minecraft-univers med sin egen identitet.</p>
+      </div>
+      <div class="footer-column"><h4>Udforsk</h4><a href="#/">Forside</a><a href="#/forum">Forum</a><a href="#/butik">Butik</a></div>
+      <div class="footer-column"><h4>Fællesskab</h4><a href="#/ansoegninger">Ansøgninger</a><a href="#/regler">Serverregler</a><a href="#/privatliv">Privatliv</a><a href="#/om">Om Xenos</a></div>
+      <div class="footer-column"><h4>Kontakt</h4><button type="button" data-action="discord">Discord</button><button type="button" data-action="contact">Support</button></div>
+    </div>
+    <div class="shell footer-bottom"><span>© <span id="year"></span> XENOS PRISON. ALLE RETTIGHEDER FORBEHOLDES.</span><span>IKKE TILKNYTTET MOJANG ELLER MICROSOFT.</span></div>
+  </footer>
+  <div id="modal-root"></div>
+  <div id="toast-root" aria-live="polite"></div>
+</body>
+</html>

@@ -13,3 +13,5 @@ Denne pakke indeholder KUN de filer, der skal tilføjes eller erstattes.
 VIGTIGT: js/config.js er ikke i denne opdateringspakke, så din konfiguration af server-IP, Discord, Tebex eller Supabase bliver ikke overskrevet.
 
 Designet er nyt. Funktioner til rigtigt forum, ansøgninger og betaling kræver stadig databasetilslutning og webshopintegration.
+
+Xenos hjemmeside version 2.

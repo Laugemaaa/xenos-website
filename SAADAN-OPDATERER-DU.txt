@@ -1,0 +1,15 @@
+XENOS UNIVERSE — OPDATERING TIL DIT EKSISTERENDE GITHUB REPO
+
+Repository: https://github.com/Laugemaaa/xenos-website
+
+Denne pakke indeholder KUN de filer, der skal tilføjes eller erstattes.
+
+1. Udpak ZIP-filen.
+2. Åbn din eksisterende GitHub-repomappe på computeren (f.eks. via GitHub Desktop).
+3. Kopiér index.html samt mapperne js/, css/ og assets/ ind i repomappen. Vælg 'Erstat filer', men BEHOLD alle andre eksisterende filer.
+4. Lav Commit to main og Push origin i GitHub Desktop.
+5. Cloudflare Workers & Pages starter en ny deployment for xenos-website. Tjek grøn status i Deployments, og opdater siden med Ctrl+F5.
+
+VIGTIGT: js/config.js er ikke i denne opdateringspakke, så din konfiguration af server-IP, Discord, Tebex eller Supabase bliver ikke overskrevet.
+
+Designet er nyt. Funktioner til rigtigt forum, ansøgninger og betaling kræver stadig databasetilslutning og webshopintegration.
